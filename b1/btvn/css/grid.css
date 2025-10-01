@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 600px;
+  margin: 50px auto;
+}
+
+.item {
+  background-color: #cbd5f4;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+/* Item 1 chiếm 2 cột đầu tiên */
+.item1 {
+  grid-column: 1 / span 2;
+}
+
+/* Item 2 nằm ở cột thứ 3 */
+.item2 {
+  grid-column: 3;
+}
+
+/* Item 3 trải rộng 3 cột hàng thứ 2 */
+.item3 {
+  grid-column: 1 / span 3;
+}

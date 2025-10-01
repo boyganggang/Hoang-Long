@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#score {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 120px); 
+  gap: 10px;
+  justify-content: center;
+}
+
+.grid img {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}

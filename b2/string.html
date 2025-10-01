@@ -1,0 +1,100 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <p id="data">
+        It's urgent, but we don't have time in the next two years to test it, but we must prioritize it. At least we don't need to obfuscate it. You must rethink the whole process. We will give you a slice of pizza if you finish the code until yesterday. Make it pop remember, the entirety is equal or better. We must build a queue system to ensure it gets the data from our API so this will result in a delay. How does this indicator should look? Also please answer to question from the next mail. Kind reminder. Please inform us where we are on this. After the release, we will need to test it individually. This was the last time when you are allowed to promote something urgent in the production when you was asked for.
+
+    </p>
+    <!--add js internal-->
+    <script>
+        // lay du lieu tu html dom
+        // document: lay toan bo tag html trong web page
+        // element: la 1 the/ tag trong html
+        const data = document.getElementById("data");
+        const dataText = data.innerText
+
+      
+
+        // tach chuoi (split("..."))
+        const words = dataText.split(" ");
+        console.log("so luong tu:", words.length);
+        const sentences = dataText.split(" ");
+        console.log(sentences);
+  // gop chuoi
+const newwords = words[15] + " " + words[136];
+console.log("tu moi:", newwords);
+console.warn("10" + 20); // chuoi + so -> chuoi
+console.warn(20 - "10") // chuoi - so -> so
+
+//  template string (ES6)
+const templateStr = `Tu moi: ${words[40]} ${words[52]}`;
+console.log(templateStr);
+
+ //  dem ki tu trong chuoi
+console.error("So ki tu: ", dataText.length); //bao gom khoang trang
+        // viet hoa/ thuong chuoi
+        // data.innerText = dataText.toLowerCase(); // viet thuong
+        data.innerText = dataText.toUpperCase(); // viet hoa
+
+        // loai bo khoang trang ( dau/ duoi)
+        const newText = "                    . ." + words[34] + ".    ";
+        console.log(newText.trim());
+    </script>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <p id="data">
+        It's urgent, but we don't have time in the next two years to test it, but we must prioritize it. At least we don't need to obfuscate it. You must rethink the whole process. We will give you a slice of pizza if you finish the code until yesterday. Make it pop remember, the entirety is equal or better. We must build a queue system to ensure it gets the data from our API so this will result in a delay. How does this indicator should look? Also please answer to question from the next mail. Kind reminder. Please inform us where we are on this. After the release, we will need to test it individually. This was the last time when you are allowed to promote something urgent in the production when you was asked for.
+
+    </p>
+    <!--add js internal-->
+    <script>
+        // lay du lieu tu html dom
+        // document: lay toan bo tag html trong web page
+        // element: la 1 the/ tag trong html
+        const data = document.getElementById("data");
+        const dataText = data.innerText
+
+      
+
+        // tach chuoi (split("..."))
+        const words = dataText.split(" ");
+        console.log("so luong tu:", words.length);
+        const sentences = dataText.split(" ");
+        console.log(sentences);
+  // gop chuoi
+const newwords = words[15] + " " + words[136];
+console.log("tu moi:", newwords);
+console.warn("10" + 20); // chuoi + so -> chuoi
+console.warn(20 - "10") // chuoi - so -> so
+
+//  template string (ES6)
+const templateStr = `Tu moi: ${words[40]} ${words[52]}`;
+console.log(templateStr);
+
+ //  dem ki tu trong chuoi
+console.error("So ki tu: ", dataText.length); //bao gom khoang trang
+        // viet hoa/ thuong chuoi
+        // data.innerText = dataText.toLowerCase(); // viet thuong
+        data.innerText = dataText.toUpperCase(); // viet hoa
+
+        // loai bo khoang trang ( dau/ duoi)
+        const newText = "                    . ." + words[34] + ".    ";
+        console.log(newText.trim());
+    </script>
+</body>
+>>>>>>> 7ca3a65591effaad73f5ef1ef9fd84daa8275349
+</html>
